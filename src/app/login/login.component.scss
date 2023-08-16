@@ -1,0 +1,46 @@
+button[type="submit"]
+{
+   margin-top: 6px;
+   cursor: pointer;
+}
+
+.hidden
+{
+    display: none;
+}
+
+.show
+{
+    display: block;
+}
+
+
+
+.login-head
+{
+    position: relative;
+    display: inline;
+    align-items: flex-start;
+}
+
+.heading
+{
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    font-weight: 600;
+}
+
+
+.gg-log-in
+{
+    display: inline-block;
+    margin: 0 12px;
+    font-weight: bolder ;
+}
+
+.gg-log-off
+{
+    display: inline-block;
+    margin: auto 6px;
+}

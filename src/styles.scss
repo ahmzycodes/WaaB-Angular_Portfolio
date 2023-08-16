@@ -1,0 +1,78 @@
+/* You can add global styles to this file, and also import other style files */
+
+.alert
+{
+    padding: 2px 10px;
+    background: #ffc7cc;
+}
+
+.hide
+{
+  display: none;
+}
+
+button {
+    box-shadow: 0 5px #999;
+  }
+   
+  button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+.border-danger:focus
+{
+ outline: none;
+  box-shadow: 0 0 0 0.25rem #ffdce0;
+//  animation: glow 1s ease-in-out infinite alternate;
+}
+
+.border-danger
+{
+    -webkit-animation:  glow 1s ease-in-out infinite alternate;
+    -moz-animation:  glow 1s ease-in-out infinite alternate;
+    animation:  glow 1s ease-in-out infinite alternate;
+}
+
+.profile-glow
+{
+  -webkit-animation:  profileGlow 1s ease-in-out infinite alternate;
+  -moz-animation:  profileGlow 1s ease-in-out infinite alternate;
+  animation:  profileGlow 1s ease-in-out infinite alternate;
+}
+
+
+@keyframes glow {
+    from {
+      box-shadow: 0 0 0 0.1rem #ffdce0;
+    }
+    to {
+      box-shadow: 0 0 0 0.3rem #efc6cb;
+    }
+}
+
+@keyframes profileGlow {
+  from {
+    box-shadow: 0 0 0 0.1rem #ffffff;
+  }
+  to {
+    box-shadow: 0 0 0 0.24rem #e6a1cc;
+  }
+}
+
+.flash-post
+{
+  -webkit-animation:  flashPost 1s ease-in-out 0s 10 alternate;
+  -moz-animation:  flashPost 1s ease-in-out 0s 10 alternate;
+   animation:  flashPost 1s ease-in-out 0s 10 alternate;
+}
+
+@keyframes flashPost{
+  from {
+    box-shadow: 0 0 0 0.1rem #ffffff;
+  }
+  to {
+    box-shadow: 0 0 10px 0.1rem #c4d2df;
+    font-size: large;
+  }
+}

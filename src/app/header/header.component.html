@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand brand" href="#">WaaB</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/about" routerLinkActive="active">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" *ngIf="authService.isAuthenticated()" routerLink="/explore" routerLinkActive="active">Explore</a>
+        </li>
+      </ul>
+      <button class="btn btn-sm btn-danger logout" *ngIf="authService.isAuthenticated()" data-bs-toggle="tooltip" data-bs-placement="left" title="Logout" (click)="authService.logout()"><i class="gg-log-off"></i></button>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,25 @@
+<div class="container mt-4">
+  <div class="d-flex mb-4">
+    <button class="btn btn-primary add-item" (click)="navigateToAddForm()">+ Add Post</button>
+  </div>
+
+  <ul class="list-group">
+    <li class="list-group-item d-flex justify-content-between align-items-center" *ngFor="let item of items">
+      <ng-container *ngIf="item.image else noProfile">
+        <img [src]="item.image" alt="Photo" (click)="removeImage(item);" class="img-fl profile-glow" height="5%" width="5%">
+      </ng-container>
+      <ng-template #noProfile>
+        <img src="../../assets/images/noProfile.jpg" alt="No Profile" (click)="onItemClick(item.id); $event.stopPropagation()" class="img-fl" height="5%" width="5%">
+      </ng-template>
+      <div (click)="exploreBody(item)" id={{item.id}} class="text-center exp-post">
+      <span>{{ item.formatedTitle }}</span>
+      </div>
+      <div>
+        <button class="btn btn-sm btn-info me-2" (click)="onItemClick(item.id); $event.stopPropagation()">Edit</button>
+        <button class="btn btn-sm btn-danger" (click)="deletePost(item.id); $event.stopPropagation()">Delete</button>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<button class="btn btn-sm btn-info" (click)="topFunction();" id="myBtn" title="Go to top"><i class="gg-chevron-up-r"></i></button>

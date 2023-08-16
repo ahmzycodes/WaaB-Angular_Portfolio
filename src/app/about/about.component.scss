@@ -1,0 +1,36 @@
+.about
+{
+    width: 40%;
+    text-align: justify;
+    text-align-last: center;
+}
+
+.about-text
+{
+   margin: 10px 0 160px;
+   font-weight: 500;
+}
+
+h2
+{
+   padding-bottom: 0;
+   display: inline;
+   border-bottom: 2px groove #a4d2ff;
+   border-bottom-width: 1.5px;
+   
+}
+
+p a
+
+{
+   cursor: pointer;
+   margin-top: 100px;
+   font-size: 2.6vh;
+   font-style: oblique;
+   font-family: cursive, Arial, Helvetica, sans-serif;
+   text-decoration: none;
+   font-weight: 400;
+   padding-bottom: 0;
+   border-bottom: 3px solid #ffa500;
+   border-radius: 50%;
+}
