@@ -33,7 +33,7 @@ T2: ng serve
 
 
 
-***********************NOTE**************************  
+***********************NOTE************************  
 
 - Images are either free to use, mine or AI Generated  
 - A good amount of test cases/best practices were considered.  
