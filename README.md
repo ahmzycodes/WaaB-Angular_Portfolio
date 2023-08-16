@@ -1,6 +1,8 @@
+<span align="center">
 
-# WAAB(WALID AHMAD ABDULLAHI)#  
+## [WAAB](https://www.linkedin.com/in/waab/)(WALID AHMAD ABDULLAHI) ##
 
+![About](src/assets/images/looks/about.png)
 
 ---------ABOUT------------  
 A portfolio project from scratch, geared towards showcasing my personal strengths in ANGULAR framework.  
@@ -39,7 +41,10 @@ T2: ng serve
 - A good amount of test cases/best practices were considered.  
 - This project is intentionally mostly TS/JS code based.  
 
-~~~~~~~~~~~~~~~~~~WALID AHMAD ABDULLAHI~~~~~~~~~~~~~~~~~~  
+![Login](src/assets/images/looks/login.png)
+![Home](src/assets/images/looks/home.png)
+![Explore](src/assets/images/looks/explore.png) 
+</span>
 
 
  
