@@ -1,9 +1,11 @@
+<span align="center">
 
-# WAAB(WALID AHMAD ABDULLAHI)#  
+## [WAAB](https://www.linkedin.com/in/waab/)(WALID AHMAD ABDULLAHI) ##
 
+![About](src/assets/images/looks/about.png)
 
 ---------ABOUT------------  
-A portforlio project from scratch, geared towards showcasing my personal strengths in ANGULAR framework.  
+A portfolio project from scratch, geared towards showcasing my personal strengths in ANGULAR framework.  
 Idea: SNR Frontend ENG Recruitment Task(Volvo)  
 
 Start date: 05 AUG 2023.  
@@ -33,13 +35,16 @@ T2: ng serve
 
 
 
-***********************NOTE**************************  
+***********************NOTE************************  
 
 - Images are either free to use, mine or AI Generated  
 - A good amount of test cases/best practices were considered.  
 - This project is intentionally mostly TS/JS code based.  
 
-~~~~~~~~~~~~~~~~~~WALID AHMAD ABDULLAHI~~~~~~~~~~~~~~~~~~  
+![Login](src/assets/images/looks/login.png)
+![Home](src/assets/images/looks/home.png)
+![Explore](src/assets/images/looks/explore.png) 
+</span>
 
 
  
