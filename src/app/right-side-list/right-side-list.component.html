@@ -3,8 +3,8 @@
     <button class="btn btn-primary add-item" (click)="navigateToAddForm()">+ Add Post</button>
   </div>
 
-  <ul class="list-group">
-    <li class="list-group-item d-flex justify-content-between align-items-center" *ngFor="let item of items">
+  <ul class="list-group right-ul">
+    <li class="list-group-item d-flex justify-content-between align-items-center right-post" *ngFor="let item of items">
       <ng-container *ngIf="item.image else noProfile">
         <img [src]="item.image" alt="Photo" (click)="removeImage(item);" class="img-fl profile-glow" height="5%" width="5%">
       </ng-container>

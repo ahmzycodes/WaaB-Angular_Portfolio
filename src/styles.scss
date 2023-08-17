@@ -11,6 +11,29 @@
   display: none;
 }
 
+.dark-mode {
+  background-color: #1c1c1c !important;
+  color: #e9e9e9 !important;
+  /* Other dark mode styles to come... */
+}
+
+.dark-card
+{
+   background-color: inherit;
+   box-shadow: 3px 4px 1px 2px #fff;  
+}
+
+.dark-footer
+{
+  background-color: #26282a !important;
+  box-shadow: -8px 8px 20px 0px rgba(235, 243, 255, 0.8588235294) !important;
+}
+
+.dark-ul
+{
+  box-shadow: 0px 0px 5px 1px rgb(138 141 145 / 86%) !important;
+}
+
 button {
     box-shadow: 0 5px #999;
   }
@@ -69,10 +92,10 @@ button {
 
 @keyframes flashPost{
   from {
-    box-shadow: 0 0 0 0.1rem #ffffff;
+    box-shadow: 0 0 0 0.01rem #ffffff;
   }
   to {
-    box-shadow: 0 0 10px 0.1rem #c4d2df;
+    box-shadow: 0 0 8px 0.1rem #c4d2df;
     font-size: large;
   }
 }

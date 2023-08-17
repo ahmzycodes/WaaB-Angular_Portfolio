@@ -44,6 +44,7 @@ T2: ng serve
 ![Login](src/assets/images/looks/login.png)
 ![Home](src/assets/images/looks/home.png)
 ![Explore](src/assets/images/looks/explore.png) 
+![Responsiveness](src/assets/images/looks/responsive.png)
 </span>
 
 
