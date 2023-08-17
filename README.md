@@ -5,7 +5,7 @@
 ![About](src/assets/images/looks/about.png)
 
 ---------ABOUT------------  
-A portfolio project from scratch, geared towards showcasing my personal strengths in ANGULAR framework.  
+A solo portfolio project from scratch, geared towards showcasing my personal strengths in ANGULAR framework.  
 Idea: SNR Frontend ENG Recruitment Task(Volvo)  
 
 Start date: 05 AUG 2023.  
