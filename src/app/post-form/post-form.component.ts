@@ -49,7 +49,7 @@ export class PostFormComponent implements OnInit {
   onSubmit(): (void|boolean) {
     if(this.post.title.length < 2 || this.post.body.length < 5 || (this.post.title.length > 20 && !this.post.title.substring(0,30).includes(" ")))
     {
-      if(this.post.title.length < 2 || !this.post.title.substring(0,30).includes(" "))
+      if(this.post.title.length < 2 || (this.post.title.length > 20 && !this.post.title.substring(0,30).includes(" ")))
       document.querySelector("[type='text']")?.classList.add('border','border-danger');
       if(this.post.body.length < 5)
       document.querySelector("textarea")?.classList.add('border','border-danger');
