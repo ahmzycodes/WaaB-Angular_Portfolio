@@ -3,7 +3,7 @@
 ## [WAAB](https://www.linkedin.com/in/waab/)(WALID AHMAD ABDULLAHI) ##
 
 ![About](src/assets/images/looks/about.png)
-![Dark](src/assets/images/looks/responsive.png)
+![Dark](src/assets/images/looks/dark-home.png)
 
 ---------ABOUT------------  
 A solo portfolio project from scratch, geared towards showcasing my personal strengths in ANGULAR framework.  

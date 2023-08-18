@@ -40,7 +40,6 @@ export class ExploreComponent implements OnInit, AfterContentChecked {
         const filter = document.querySelector(".explore-search");
         const  targetPost = (document.getElementById(String(postId)));
         if(targetPost){
-        //console.log(targetPost.innerHTML);
         const searchInput = document.querySelector(".explore-search") as HTMLInputElement;
         searchInput.value = targetPost.innerHTML; 
         const searchEvent = new Event('input', { bubbles: true });

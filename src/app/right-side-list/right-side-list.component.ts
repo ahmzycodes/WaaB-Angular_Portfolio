@@ -77,7 +77,6 @@ export class RightSideListComponent implements OnInit, DoCheck {
   if(window.confirm("Remove Image?"))
   {
     item.image = null;
-    //console.log(item);
     this.appState.updatePost(item);
     this.postsService.updatePost(item).subscribe(updatedPost => {
     this.appState.updatePost(updatedPost);});
