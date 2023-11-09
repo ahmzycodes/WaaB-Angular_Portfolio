@@ -18,8 +18,8 @@ PWD: test@
 ----------RUN-------------  
 Intall all dependencies ~ `npm install`  
 2 terminals  
-T1: json-server --watch db.json  
-T2: ng serve  
+T1: `json-server --watch db.json`  
+T2: `ng serve`  
 
 
 -----------------------REMARKS------------------------    
